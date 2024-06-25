@@ -7,6 +7,7 @@ class ExercicioUm {
 		System.out.println("Digite um numero: ");
 
 		Scanner s = new Scanner(System.in);
+		
 		if (!s.hasNextInt())
             System.out.println("Entrada invalida. Digite um numero inteiro.");
 		else{
