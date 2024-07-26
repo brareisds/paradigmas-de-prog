@@ -1,4 +1,4 @@
-module FuncoesDecisao where
+module Lista2.FuncoesDecisao where
 
 ehPar :: Int -> Bool
 ehPar x 

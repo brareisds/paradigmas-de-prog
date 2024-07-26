@@ -1,4 +1,4 @@
-module PrimeiroPrograma where
+module Lista2.PrimeiroPrograma where
 
 -- Primeira parte: base de dados
 -- declaracao dos numeros reais de uma sequencia
@@ -16,7 +16,6 @@ somaNumeros :: Int -> Double
 somaNumeros 0 = 0
 somaNumeros n = num n + somaNumeros (n-1)
 
--- Terceira Parte: Funcao media (nao recursiva)
 -- Terceira Parte: Funcao media (nao recursiva)
 calculaMedia :: Int -> Double
 calculaMedia n = (somaNumeros n) / (fromIntegral n)

@@ -1,4 +1,4 @@
-module FuncoesRecursiva where
+module Lista2.FuncoesRecursiva where
 
 -- recursao com guardas
 calculaFatorialG :: Int -> Int
